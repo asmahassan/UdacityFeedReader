@@ -4,12 +4,12 @@
 
 **Date:** Feb 2, 2017.
 
-##Description:
+## Description:
 This project is part of Udacity FrontEnd nanodegre, The required tests for the project (RSS Feed testing, RSS Feed properties, menu default state, and menu hiding/showing) are all provided and are comprehensive enough to adequately test the functionality
 
 
-##Project Instruction:
-###Data Collection
+## Project Instruction:
+### Data Collection
 - You can read the project requirements at the following url:
 https://review.udacity.com/#!/rubrics/18/view
 
