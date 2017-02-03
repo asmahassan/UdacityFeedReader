@@ -28,7 +28,7 @@ To install the project follow these steps:
 ### steps:
 1- I edited the allFeeds variable in ./js/app.js to make the provided test fail and to see how Jasmine visualizes this failure in my application. then i return the allFeeds variable to a passing state.
 
-2- I wrote the flowing tests to meet the project requirements:
+2- I wrote the following tests to meet the project requirements:
 - Test and confirm each feed in the allFeeds object has a URL defined and the URL is not empty.
 - Test and confirm each feed in the allFeeds object has a Name defined and the Name is not empty.
 - Test and confirm the menu element is hidden by default and the menu changes visibility when the menu icon is clicked.
