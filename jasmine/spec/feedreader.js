@@ -15,7 +15,7 @@ $(function() {
     describe('RSS Feeds', function() {
         for (var i = 0; i < allFeeds.length; i++) {
             testUrl(allFeeds[i].url,i+1);
-            testName(allFeeds[i].url,i+1);
+            testName(allFeeds[i].name,i+1);
         }
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
@@ -106,7 +106,7 @@ $(function() {
             loadFeed(2,function(){
                 expect($('.feed').html()).not.toEqual(myOldFeed);
                 done();
-            })
+            });
         });
     });
 });
