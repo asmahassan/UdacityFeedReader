@@ -17,10 +17,18 @@ https://review.udacity.com/#!/rubrics/18/view
 https://github.com/udacity/frontend-nanodegree-feedreader
 
 
-### steps:
-1- I edit the allFeeds variable in ./js/app.js to make the provided test fail and to see how Jasmine visualizes this failure in my application. then i return the allFeeds variable to a passing state.
+### How to install
+To install the project follow these steps:
 
-2- write the flowing tests:
+- Clone this git repository to your working directory (`git clone https://github.com/asmahassan/UdacityFeedReader.git)
+- Create a local webserver (e.g. python -m SimpleHTTPServer or XAMPP)
+- Open the index.html file in your Browser and run the tests
+
+
+### steps:
+1- I edited the allFeeds variable in ./js/app.js to make the provided test fail and to see how Jasmine visualizes this failure in my application. then i return the allFeeds variable to a passing state.
+
+2- I wrote the flowing tests to meet the project requirements:
 - Test and confirm each feed in the allFeeds object has a URL defined and the URL is not empty.
 - Test and confirm each feed in the allFeeds object has a Name defined and the Name is not empty.
 - Test and confirm the menu element is hidden by default and the menu changes visibility when the menu icon is clicked.
